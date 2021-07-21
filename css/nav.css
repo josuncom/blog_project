@@ -5,7 +5,7 @@
     padding: 10px;
 }
 
-.li-inline li{
+.li-inline>li{
     display: inline-block;
     width : 100px;
     text-align: center;
