@@ -4,12 +4,11 @@ div, input{
 }
 
 
-
 .form-background{
+    margin-top: 350px;
     width:100%;
     background-color: rgba(0, 0, 0, 0.8);
     height: 700px;
-   
 }
 
 .form-white{
