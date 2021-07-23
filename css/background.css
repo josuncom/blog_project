@@ -1,3 +1,7 @@
+div{
+    box-sizing: border-box;
+}
+
 .main-background{
     width : 100%;
     height : 650px;
@@ -34,15 +38,16 @@
 
 
 
-.main-sub{
+.explain-box{
     position:absolute;
     left:0;
     right:0;
     margin-left: auto;
     margin-right: auto;
-    width : 500px;
+    width : 60%;
     background-color: gray;
     color :white;
     text-align: center;
     margin-top : 80px;
+    max-width : 700px;
 }
