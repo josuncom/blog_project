@@ -1,0 +1,56 @@
+div{
+    box-sizing: border-box;
+}
+
+.flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-container a{
+    text-decoration: none;
+}
+
+.flex-container :visited{
+    color : black;
+}
+.nav-menu{
+    width : 10%;
+    height : 30px;
+    background:white;
+    margin : 10px;
+    text-align: center;
+    padding-right: 10px;
+}
+
+.nav-logo{
+    padding-left :20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.explain-container{
+    margin-top : 50px;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.explain-container div{
+    text-align: center;
+    margin : 5%;
+}
+
+
+.explain-container>div>p{
+    font-size : 12px;
+}
+
+@media screen and (max-width : 576px) {
+    .explain-container{
+        flex-direction: column;
+        max-width: 600px;
+    }
+}
