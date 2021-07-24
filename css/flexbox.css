@@ -40,9 +40,9 @@ div{
 
 .explain-container div{
     text-align: center;
-    margin : 5%;
+    margin : 50px;
+    width :15%;
 }
-
 
 .explain-container>div>p{
     font-size : 12px;
