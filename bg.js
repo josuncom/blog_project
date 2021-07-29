@@ -17,7 +17,6 @@ function genRandom(){
 function init(){
     const randomNumber = genRandom(); 
     paintImage(randomNumber);
-    paintProverb(randomNumber);
 }
 
 init();

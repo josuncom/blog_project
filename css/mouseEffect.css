@@ -1,0 +1,45 @@
+html {
+    --color-texta: #1d1d1d;
+    --color-textb: #fff;
+}
+
+body {
+    cursor: none;
+}
+
+.cursor {
+    width: 3rem;
+    height: 3rem;
+    border: 2px solid var(--color-texta);
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1000;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    transition: all 0.3s ease;
+    transition-property: background, transform;
+    transform-origin: 100% 100%;
+    backdrop-filter: sepia(20%);
+    background-size: cover;
+}
+
+.cursor-grow {
+    transform: scale(2);
+    background-color: var(--color-textb);
+}
+
+.menu-flexbox a :hover::after {
+    width: calc(100% - 2rem);
+    height: 3px;
+    background-size: contain; /* 배경 이미지(svg)가 알맞게 들어가도록*/
+  }
+
+/* hover된 링크의 글자 색상 정의(하얀색)*/
+/* .hovered-link 선택자명은 추후 JS로 추가할 예정!*/
+  .hovered-link {
+      color: var(--color-texta) !important;
+  }
+/* .gnb li a:hover::after의 svg에 배경이미지 지정!*/
+  .hovered-link::after {
+      background-image: url("../image/cursor.svg");
+  }
