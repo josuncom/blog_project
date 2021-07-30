@@ -24,7 +24,7 @@ body {
     max-width:1200px;
     margin-left : auto;
     margin-right: auto;
-    display: block;
+    display: flex;
 }
 
 .aboutMe-item{
@@ -59,4 +59,16 @@ body {
 .overlay:hover{
     opacity: 1;
     transition: 1s;
+}
+
+
+.video-container{
+    margin-top : 40px;
+    margin-left : -100px;
+}
+
+.content-container p{
+    color : black;
+    font-size : 30px;
+    font-weight: 500;
 }
