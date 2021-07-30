@@ -1,0 +1,12 @@
+.clock-container{
+    width : 100%;
+    z-index : 3;
+    margin : 0;
+    text-align: right;
+    margin-top : 600px;
+    padding-top : 130px;
+}
+
+.clock-container span{
+    font-size : 30px;
+}

@@ -8,7 +8,7 @@ a,p,div{
     color : white;
 }
 
-.body { 
+body { 
     animation: fadein 0.7s;
 }
 
