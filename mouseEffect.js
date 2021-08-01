@@ -1,5 +1,6 @@
 let mouseCursor = document.querySelector(".cursor");
 let navLinks = document.querySelectorAll(".menu-flexbox a"); //메뉴 링크
+let img = document.querySelectorAll(".like-contents img");
 //window 객체에 scroll & mouse 이벤트를 추가하고 cursor함수 실행되도록 함
 
 window.addEventListener("scroll", cursor);
