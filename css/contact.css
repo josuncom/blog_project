@@ -12,7 +12,7 @@
     margin-top : 80px;
 }
 
-.contact-contents i{
+.contact-contents span{
     font-size: 250px;
     color : black;
 }
@@ -23,7 +23,4 @@
     font-size : 50px;
     color : black;
 
-}
-.contact-contents i :hover{
-    color : gray
 }
