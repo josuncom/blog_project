@@ -23,9 +23,16 @@ body {
     background-size: cover;
 }
 
-.cursor-grow {
+.cursor-white {
     transform: scale(2);
     background-color: var(--color-textb);
+    opacity: 0.5;
+}
+
+.cursor-black {
+    transform: scale(2);
+    background-color: var(--color-texta);
+    opacity: 0.5;
 }
 
 .menu-flexbox a :hover::after {
@@ -34,11 +41,18 @@ body {
     background-size: contain; /* 배경 이미지(svg)가 알맞게 들어가도록*/
   }
 
+
+
 /* hover된 링크의 글자 색상 정의(하얀색)*/
 /* .hovered-link 선택자명은 추후 JS로 추가할 예정!*/
-  .hovered-link {
+  .hovered-black {
       color: var(--color-texta) !important;
   }
+
+  .hovered-white{
+      color: var(--color-textb) !important;
+  }
+
 /* .gnb li a:hover::after의 svg에 배경이미지 지정!*/
   .hovered-link::after {
       background-image: url("../image/cursor.svg");

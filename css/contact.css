@@ -12,15 +12,15 @@
     margin-top : 80px;
 }
 
-.contact-contents span{
+.contact-contents span, i{
     font-size: 250px;
     color : black;
 }
 
-.contact-contents p{
+.contact-contents p, .contact-contents a{
     margin-top: 50px;
     font-family: 'Open Sans', sans-serif;
     font-size : 50px;
     color : black;
-
+    text-decoration: none;
 }
