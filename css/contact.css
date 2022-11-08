@@ -7,10 +7,8 @@
 .contact-contents{
     display: flex;
     flex-direction: column;
-    margin-left: 240px;
     text-align: center;
-    margin-top : 64px;
-
+    margin: auto;
 }
 
 .contact-contents span, i{

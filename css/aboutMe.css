@@ -10,7 +10,7 @@ body {
 .white-background{
     background : white;
     background : transparent;
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.75);
     position: fixed;
     height: 440px;
     top : 280px;
@@ -71,9 +71,13 @@ body {
     margin-top : 32px;
 }
 
+.content-container .profile-subtitle,
+.wannaBe-container .profile-subtitle{
+    font-size: 1.5rem;
+}
+
 .content-container{
-    margin-left : 20px;
-    margin-top : 10px;
+    margin: auto;
 }
 .content-container p{
     color : black;

@@ -2,18 +2,16 @@ div{
     box-sizing: border-box;
 }
 
-
 .clock-container{
     width : 100%;
     z-index : 3;
     margin : 0;
     text-align: right;
-    margin-top : 480px;
-    padding-top : 104px;
+    margin-top : 45rem;
 }
 
 .clock-container span{
-    font-size : 24px;
+    font-size : 2rem;
 }
 
 .white-background{
@@ -31,30 +29,41 @@ div{
     display: flex;
     width: 100%;
     height: 80%;
-    margin-top:40px; 
-    margin-left: 16px;
-    margin-right: 16px; 
+    margin-top:1.5rem; 
     justify-items: center;
     font-family: 'Open Sans KR', sans-serif;
 }
 
-.like-contents{
+.like-container .like-contents{
     display: flex;
     flex-direction: column;
-    margin-left : 144px;  
+    width: calc(100% / 3); 
+}
+.like-container .like-contents .like-image,
+.like-container .like-contents video{
+    margin: auto;
+    width: 16rem;
+    height: 16rem;
+}
+.like-container .like-contents video{
+    width: 18rem;
+    margin-top: 1rem;
 }
 
 .like_list_title{
-    margin-top : 8px;
+    margin-top : 0.5rem;
     font-size : 24px;
     color : black;
     font-weight: 600;
     text-align: center;
     font-family: 'Open Sans KR', sans-serif;
 }
+.like_list_title.basket{
+    margin-top: 1.5rem;
+}
+
 
 .like_list_description{
-    width : 304px;
     margin-top : 8px;
     text-align: center;
     font-size: 16px; 
@@ -67,10 +76,4 @@ video{
     width : 304px;
     transform: scale(1);
     z-index: 0;
-
-}
-
-img{
-    width : 304px;
-    height: 230.4px;  
 }
