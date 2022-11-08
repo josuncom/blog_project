@@ -1,5 +1,5 @@
 # 난말이야!
-## HTML/CSS를 이용한 자기소개 페이지 프로젝트(근데 이제 JS를 곁들인)
+### HTML/CSS를 이용한 자기소개 페이지 프로젝트(근데 이제 JS를 곁들인)
 
 <br/>
 
@@ -15,4 +15,5 @@ HTML과 CSS를 이용해(근데 이제 JavaScript를 곁들인)
 HTML CSS Javascript
 <br/>
 <br/>
-### 3. 
+### 3. 페이지 링크
+https://josuncom.github.io/blog_project/mainPage.html
